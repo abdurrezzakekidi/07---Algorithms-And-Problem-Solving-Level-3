@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem06-3x3OrderedMatrix"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem07-TransposeOfMatrix", "Problem07-TransposeOfMatrix\Problem07-TransposeOfMatrix.vcxproj", "{DCFC6F0C-52B9-4FCF-8ED4-D3EA1A99C3E6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem08-Multiply2RandomMatrices", "Problem08-Multiply2RandomMatrices\Problem08-Multiply2RandomMatrices.vcxproj", "{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem09-PrintMiddleRowAndColumn", "Problem09-PrintMiddleRowAndColumn\Problem09-PrintMiddleRowAndColumn.vcxproj", "{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +85,22 @@ Global
 		{DCFC6F0C-52B9-4FCF-8ED4-D3EA1A99C3E6}.Release|x64.Build.0 = Release|x64
 		{DCFC6F0C-52B9-4FCF-8ED4-D3EA1A99C3E6}.Release|x86.ActiveCfg = Release|Win32
 		{DCFC6F0C-52B9-4FCF-8ED4-D3EA1A99C3E6}.Release|x86.Build.0 = Release|Win32
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Debug|x64.ActiveCfg = Debug|x64
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Debug|x64.Build.0 = Debug|x64
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Debug|x86.Build.0 = Debug|Win32
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Release|x64.ActiveCfg = Release|x64
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Release|x64.Build.0 = Release|x64
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Release|x86.ActiveCfg = Release|Win32
+		{FEBB16A4-766D-4E42-8F3B-429C2E2B9B63}.Release|x86.Build.0 = Release|Win32
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Debug|x64.ActiveCfg = Debug|x64
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Debug|x64.Build.0 = Debug|x64
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Debug|x86.Build.0 = Debug|Win32
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Release|x64.ActiveCfg = Release|x64
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Release|x64.Build.0 = Release|x64
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Release|x86.ActiveCfg = Release|Win32
+		{33C6F9F2-9AC2-42A0-A3D2-796553C8E3FC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
