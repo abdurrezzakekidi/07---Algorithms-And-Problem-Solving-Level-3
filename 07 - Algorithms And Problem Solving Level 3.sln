@@ -35,6 +35,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem15-CountNumberInMatr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem16-SparseMatrix", "Problem16-SparseMatrix\Problem16-SparseMatrix.vcxproj", "{2E207812-021F-47D2-B7DC-D8B9DD91D90C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem17-NumberExistsInMatrix", "Problem17-NumberExistsInMatrix\Problem17-NumberExistsInMatrix.vcxproj", "{7E5EF266-07B3-482A-AD81-8E37FA244B56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem18-IntersectedNumberInMetrecies", "Problem18-IntersectedNumberInMetrecies\Problem18-IntersectedNumberInMetrecies.vcxproj", "{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem19-FindMinMaxInMatrix", "Problem19-FindMinMaxInMatrix\Problem19-FindMinMaxInMatrix.vcxproj", "{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem20-PalindromeMatrix", "Problem20-PalindromeMatrix\Problem20-PalindromeMatrix.vcxproj", "{09D83B51-3790-417F-AD54-E38FF1BE24C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +179,38 @@ Global
 		{2E207812-021F-47D2-B7DC-D8B9DD91D90C}.Release|x64.Build.0 = Release|x64
 		{2E207812-021F-47D2-B7DC-D8B9DD91D90C}.Release|x86.ActiveCfg = Release|Win32
 		{2E207812-021F-47D2-B7DC-D8B9DD91D90C}.Release|x86.Build.0 = Release|Win32
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Debug|x64.ActiveCfg = Debug|x64
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Debug|x64.Build.0 = Debug|x64
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Debug|x86.Build.0 = Debug|Win32
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Release|x64.ActiveCfg = Release|x64
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Release|x64.Build.0 = Release|x64
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Release|x86.ActiveCfg = Release|Win32
+		{7E5EF266-07B3-482A-AD81-8E37FA244B56}.Release|x86.Build.0 = Release|Win32
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Debug|x64.ActiveCfg = Debug|x64
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Debug|x64.Build.0 = Debug|x64
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Debug|x86.ActiveCfg = Debug|Win32
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Debug|x86.Build.0 = Debug|Win32
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Release|x64.ActiveCfg = Release|x64
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Release|x64.Build.0 = Release|x64
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Release|x86.ActiveCfg = Release|Win32
+		{93A44D17-38FD-471B-BDAE-7E3C713A9DDE}.Release|x86.Build.0 = Release|Win32
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Debug|x64.ActiveCfg = Debug|x64
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Debug|x64.Build.0 = Debug|x64
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Debug|x86.Build.0 = Debug|Win32
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Release|x64.ActiveCfg = Release|x64
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Release|x64.Build.0 = Release|x64
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Release|x86.ActiveCfg = Release|Win32
+		{C4FBAA49-F39B-45CB-B705-D8AD5E0C462D}.Release|x86.Build.0 = Release|Win32
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Debug|x64.ActiveCfg = Debug|x64
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Debug|x64.Build.0 = Debug|x64
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Debug|x86.Build.0 = Debug|Win32
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Release|x64.ActiveCfg = Release|x64
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Release|x64.Build.0 = Release|x64
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Release|x86.ActiveCfg = Release|Win32
+		{09D83B51-3790-417F-AD54-E38FF1BE24C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
