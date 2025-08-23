@@ -22,7 +22,8 @@ bool CkeckIsVovel(char ch1)
 	}
 	return false;
 }
-bool IsVovel(char ch1)
+
+bool IsVowel(char ch1)
 {
 	ch1 = tolower(ch1);
 	return (ch1 == 'a' || ch1 == 'e' || ch1 == 'i' || ch1 == 'o' || ch1 == 'u');
@@ -41,7 +42,7 @@ int main()
 		*/
 
 
-	if (IsVovel(ch1))
+	if (IsVowel(ch1))
 		cout << "\nYes Letter \'" << ch1 << "\' is Vowel\n";
 	else
 		cout << "\nNo Letter \'" << ch1 << "\' is not Vowel\n";
