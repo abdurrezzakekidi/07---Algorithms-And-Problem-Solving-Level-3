@@ -89,6 +89,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem42-ReplaceWords", "P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem43-ReplaceWordMatchCase", "Problem43-ReplaceWordMatchCase\Problem43-ReplaceWordMatchCase.vcxproj", "{A22968C7-AD3D-4121-A62A-199DB70271E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem44-RemovePunctuations", "Problem44-RemovePunctuations\Problem44-RemovePunctuations.vcxproj", "{46E15128-D586-45AB-95DE-4DE8731019E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem45-ConvertRecordtoLine", "Problem45-ConvertRecordtoLine\Problem45-ConvertRecordtoLine.vcxproj", "{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem46-ConvertLineToRecord", "Problem46-ConvertLineToRecord\Problem46-ConvertLineToRecord.vcxproj", "{1BB51804-6A13-40CD-BCB8-341DB6B01378}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem47-AddClientsLineRecordToFile", "Problem47-AddClientsLineRecordToFile\Problem47-AddClientsLineRecordToFile.vcxproj", "{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -441,6 +449,38 @@ Global
 		{A22968C7-AD3D-4121-A62A-199DB70271E5}.Release|x64.Build.0 = Release|x64
 		{A22968C7-AD3D-4121-A62A-199DB70271E5}.Release|x86.ActiveCfg = Release|Win32
 		{A22968C7-AD3D-4121-A62A-199DB70271E5}.Release|x86.Build.0 = Release|Win32
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Debug|x64.ActiveCfg = Debug|x64
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Debug|x64.Build.0 = Debug|x64
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Debug|x86.Build.0 = Debug|Win32
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Release|x64.ActiveCfg = Release|x64
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Release|x64.Build.0 = Release|x64
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Release|x86.ActiveCfg = Release|Win32
+		{46E15128-D586-45AB-95DE-4DE8731019E1}.Release|x86.Build.0 = Release|Win32
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Debug|x64.ActiveCfg = Debug|x64
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Debug|x64.Build.0 = Debug|x64
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Debug|x86.Build.0 = Debug|Win32
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Release|x64.ActiveCfg = Release|x64
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Release|x64.Build.0 = Release|x64
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Release|x86.ActiveCfg = Release|Win32
+		{95C28672-D1CA-4F4B-883D-AE7CA1362BE4}.Release|x86.Build.0 = Release|Win32
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Debug|x64.ActiveCfg = Debug|x64
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Debug|x64.Build.0 = Debug|x64
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Debug|x86.Build.0 = Debug|Win32
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Release|x64.ActiveCfg = Release|x64
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Release|x64.Build.0 = Release|x64
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Release|x86.ActiveCfg = Release|Win32
+		{1BB51804-6A13-40CD-BCB8-341DB6B01378}.Release|x86.Build.0 = Release|Win32
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Debug|x64.ActiveCfg = Debug|x64
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Debug|x64.Build.0 = Debug|x64
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Debug|x86.Build.0 = Debug|Win32
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Release|x64.ActiveCfg = Release|x64
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Release|x64.Build.0 = Release|x64
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Release|x86.ActiveCfg = Release|Win32
+		{18BFD3F7-E907-48E1-B65F-FA3473FCBD6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
