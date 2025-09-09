@@ -33,47 +33,56 @@ vector<string> SplitString(string s, const string& delim)
     return parts;
 }
 
-sClient ConvertLinetoRecord(const string& line, const string& sep = "#//#")
+sClient ConvertLinetoRecord(const string line, const string& sep = "#//#")
 {
     sClient client;
-    vector<string> f = SplitString(line, sep);
+    vector <string> vClientData;
 
-    // Dosyada eksik/sorunlu satır varsa erişim taşmasını önle
-    if (f.size() >= 5) {
-        client.AccountNumber = f[0];
-        client.PinCode = f[1];
-        client.Name = f[2];
-        client.Phone = f[3];
-        client.AccountBalance = std::stod(f[4]); // string -> double
-    }
+    vClientData = SplitString(line, sep);
+
+    
+    
+        client.AccountNumber = vClientData[0];
+        client.PinCode = vClientData[1];
+        client.Name = vClientData[2];
+        client.Phone = vClientData[3];
+        client.AccountBalance = stod(vClientData[4]); // string -> double
+    
     return client;
 }
 
 vector<sClient> LoadClientsDataFromFile(const string& fileName)
 {
-    vector<sClient> clients;
-    fstream in(fileName, ios::in);
-    if (in.is_open()) {
+    vector<sClient> vClients;
+    fstream Myfile;
+     Myfile.open(fileName, ios::in); // read only
+
+    if (Myfile.is_open())
+    {
         string line;
-        while (std::getline(in, line)) {
-            if (!line.empty())
-                clients.push_back(ConvertLinetoRecord(line));
+		sClient client;
+
+        while (std::getline(Myfile, line))
+        {
+            client = ConvertLinetoRecord(line);
+
+			vClients.push_back(client);
         }
-        in.close();
+        Myfile.close();
     }
-    return clients;
+    return vClients;
 }
 
-void PrintClientRecord(const sClient& c)
+void PrintClientRecord( sClient Client)
 {
-    cout << "| " << setw(15) << left << c.AccountNumber
-        << "| " << setw(10) << left << c.PinCode
-        << "| " << setw(25) << left << c.Name
-        << "| " << setw(20) << left << c.Phone
-        << "| " << setw(20) << left << fixed << setprecision(2) << c.AccountBalance;
+    cout << "| " << setw(15) << left << Client.AccountNumber
+        << "| " << setw(10) << left << Client.PinCode
+        << "| " << setw(25) << left << Client.Name
+        << "| " << setw(20) << left << Client.Phone
+        << "| " << setw(20) << left << fixed << setprecision(2) << Client.AccountBalance;
 }
 
-void PrintAllClientsData(const vector<sClient>& clients)
+void PrintAllClientsData(vector<sClient>& clients)
 {
     cout << "\n\t\t\t\t\tClient List (" << clients.size() << ") Client(s).";
     cout << "\n_______________________________________________________"
@@ -86,8 +95,8 @@ void PrintAllClientsData(const vector<sClient>& clients)
     cout << "_______________________________________________________"
         "_________________________________________\n";
 
-    for (const sClient& c : clients) {
-        PrintClientRecord(c);
+    for (const sClient Client : clients) {
+        PrintClientRecord(Client);
         cout << '\n';
     }
 
